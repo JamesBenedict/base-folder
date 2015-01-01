@@ -234,7 +234,7 @@ Assume anything not under a media query is for .col-xs */
 
 	.led{
 		margin-top: .8em;
-		text-align: center;
+		text-align: left;
 	}
 
 	.intro-caption-mobile{
