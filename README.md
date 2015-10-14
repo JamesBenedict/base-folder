@@ -8,6 +8,15 @@
 
 <p>Try to keep the digital desk updated on your story throughout your reporting and not just when you're ready to publish. The earlier we know how you're going to tell the story the better it will work online. I'm excited if you want a featured added so just let me know if you have any ideas. We will likely be debugging eight to ten stories at the end of the semester, so we need to already be familiar with your code and its issues before then.</p>
 
+<p>We host everything on github, but if you're not comfortable working with it you can also just give us your code. It can't include any server-side programming like Ruby, Python, PHP, etc. but I don't imagine you would ever need to. 
+All project folders must be less than 100MB, so size down all your media to only what's needed for the web. Try to keep as much media in your folder as possible, but if you need to use an external service to host it use an official IDS news account.</p>
+<h4>Prefered Services for large or confusing files</h4>
+	<ul>
+		<li><a href="https://www.youtube.com/user/idsnews">Youtube</a></li>
+		<li><a href="https://www.soundcloud.com/ids-6">Soundcloud</a></li>
+		<li><a href="https://www.jsfiddle.net/">jsfiddle</a></li>
+	</ul>
+
 <h2>Working Notes</h2>
 <p>This is still early on and things are probably going to move around a lot quickly.  Expect the first template with a layout grid and basic css by Oct. 17 and another template with working media examples by the end of the following week. The structure should be finalized by the end of October. Then I'm going to work on improving functionality and the overall smoothness throughout the semester. The more feedback I get from you guys, the more bugs will be exposed and the better the final project will be.</p>
 
