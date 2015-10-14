@@ -36,7 +36,7 @@
 <ul>
 	<li><a href="https://www.google.com/fonts">Google Fonts</a></li>
 	<li><a href="http://www.getbootstrap.com/getting-started/#download">Bootstrap 3.3.5</a></li>
-	<li><a href="http://https://www.fortawesome.github.io/Font-Awesome/>Font Awesome</a></li>
+	<li><a href="http://https://www.fortawesome.github.io/Font-Awesome">Font Awesome</a></li>
 	<li><a href="http://www.highcharts.com/download">Highcharts 4.1.9</a></li>
 	<li><a href="https://www.knightlab.northwestern.edu/">Knightlab tools</a></li>
 	<li><a href="http://www.ezgif.com/video-to-gif">Online Gif Converter</a></li>
