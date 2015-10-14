@@ -33,13 +33,13 @@
 </ul>
 
 <h4>Things I've used so far</h4>
-	<ul>
-		<li><a href="https://www.google.com/fonts">Google Fonts</a></li>
-		<li><a href="http://getbootstrap.com/getting-started/#download">Bootstrap 3.3.5</a></li>
-		<li><a href="http://www.highcharts.com/download">Highcharts 4.1.9</a></li>
-		<li><a href="https://knightlab.northwestern.edu/">Knightlab tools</a></li>
-		<li><a href="http://ezgif.com/video-to-gif">Online Gif Converter</a></li>
-		<li><a href="https://jsfiddle.net/">jsfiddle</a></li>
-	</ul>
+<ul>
+	<li><a href="https://www.google.com/fonts">Google Fonts</a></li>
+	<li><a href="http://www.getbootstrap.com/getting-started/#download">Bootstrap 3.3.5</a></li>
+	<li><a href="http://www.highcharts.com/download">Highcharts 4.1.9</a></li>
+	<li><a href="https://www.knightlab.northwestern.edu/">Knightlab tools</a></li>
+	<li><a href="http://www.ezgif.com/video-to-gif">Online Gif Converter</a></li>
+	<li><a href="https://www.jsfiddle.net/">jsfiddle</a></li>
+</ul>
 
 	
