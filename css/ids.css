@@ -1,6 +1,101 @@
-/*
-font-family: 'Lato', sans-serif;
+/*Notes and comments*/
+/*Here are youre*/
 
-font-family: 'Merriweather', serif;
 
-*/
+/*General html*/
+	body{
+
+	}
+
+	
+/*Fonts*/
+	h1, h2, h3, h4, h5{
+		font-family: 'Lato', sans-serif;
+
+	}
+
+	p {
+		font-family: 'Merriweather', serif;
+
+	}
+
+
+/*Links*/
+	a{
+
+	}
+
+	a:hover{
+
+	}
+
+	a:visited{
+
+	}
+
+	a:active{
+
+	}
+
+
+/*Imgs and figures*/
+	figure{
+
+	}
+
+	img{
+
+	}
+
+
+/*Navigation*/
+	.navbar .button{
+
+
+	}
+
+
+/*Header*/
+	header h1{
+		color: black;
+	}
+
+
+/*body copy 6 columns*/
+	.body-copy{
+
+	}
+
+
+/*sidebar 3 columns*/
+	.sidebar{
+
+	}
+
+
+/*inline 6-12 columns*/ 
+	.inline{
+
+	}
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm) { 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md) { 
+
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg) { 
+
+ }
+
+
+
+
