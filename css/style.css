@@ -1,0 +1,26 @@
+.intro{
+	color: red;
+}
+
+.sidebar img {
+	width: 50%;
+}
+
+.body-copy{
+	color: red;
+}
+
+.inline img {
+	width: 100%;
+}
+
+.break{
+	background-color: black;
+	height: 10em;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+h1{
+	color: purple;
+}
