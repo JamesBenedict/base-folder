@@ -11,11 +11,11 @@
 <p>We host everything on github, but if you're not comfortable working with it you can also just give us your code. It can't include any server-side programming like Ruby, Python, PHP, etc. but I don't imagine you would ever need to. 
 All project folders must be less than 100MB, so size down all your media to only what's needed for the web. Try to keep as much media in your folder as possible, but if you need to use an external service to host it use an official IDS news account.</p>
 <h4>Prefered Services for large or confusing files</h4>
-	<ul>
-		<li>Youtube</li>
-		<li>Soundcloud</li>
-		<li>JS fiddle</li>
-	</ul>
+<ul>
+	<li>Youtube</li>
+	<li>Soundcloud</li>
+	<li>JS fiddle</li>
+</ul>
 
 <h2>Working Notes</h2>
 <p>This is still early on and things are probably going to move around a lot quickly.  Expect the first template with a layout grid and basic css by Oct. 17 and another template with working media examples by the end of the following week. The structure should be finalized by the end of October. Then I'm going to work on improving functionality and the overall smoothness throughout the semester. The more feedback I get from you guys, the more bugs will be exposed and the better the final project will be.</p>
