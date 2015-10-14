@@ -12,9 +12,9 @@
 All project folders must be less than 100MB, so size down all your media to only what's needed for the web. Try to keep as much media in your folder as possible, but if you need to use an external service to host it use an official IDS news account.</p>
 <h4>Prefered Services for large or confusing files</h4>
 	<ul>
-		<li><a href="https://www.youtube.com/user/idsnews">Youtube</a></li>
-		<li><a href="https://www.soundcloud.com/ids-6">Soundcloud</a></li>
-		<li><a href="https://www.jsfiddle.net/">jsfiddle</a></li>
+		<li>Youtube</li>
+		<li>Soundcloud</li>
+		<li>JS fiddle</li>
 	</ul>
 
 <h2>Working Notes</h2>
