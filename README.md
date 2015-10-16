@@ -1,7 +1,7 @@
 # ids-buildout-base
 
 <em>A work in progress guide to developing long form article designs for the Indiana Daily Student outside of our CMS.</em>
-<p>This template is adapted from <a href="http://wwww.specials.idsnews.com/caps/"> Waiting for Help</a> pubished in the Spring of 2015 at the <a href="http://www.idsnews.com">Indiana Daily Student</a> in the Spring of 2015. It is being developed for stories from Bonnie Layton's mutlimedia section of the Words and Pictures course at IU in the Fall of 2015. Please don't hesitate to shoot me an email if you have any question. 
+<p>This template is adapted from <a href="http://wwww.specials.idsnews.com/caps/"> Waiting for Help</a> pubished in the Spring of 2015 at the <a href="http://www.idsnews.com">Indiana Daily Student</a>. It is being developed for stories from Bonnie Layton's mutlimedia section of the Words and Pictures course at IU in the Fall of 2015. Please don't hesitate to shoot me an email if you have any question. 
 
 <h2>Rules if you plan on publishing in the IDS</h2>
 <p>Follow all commented instructions and call all ids.css or ids.js last in your html. There is no absolute style rulebook, and we're open to changes as long as you have a compelling justification. </p>
