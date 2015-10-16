@@ -1,24 +1,39 @@
-/*Notes and comments*/
-/*Here are youre*/
-
+/*Bootstrap is mobile first, so media queries at the bottom apply to larger screens.
+Assume anything not under a media query is for .col-xs */
 
 /*General html*/
 	body{
-
+		background-color:#F0F0F0;
 	}
 
 	
-/*Fonts*/
+/*Fonts and icons*/
+	/*if you want to add a different headline font let us know.*/
 	h1, h2, h3, h4, h5{
 		font-family: 'Lato', sans-serif;
-
 	}
 
-	p {
+	/*We're never gonna change body copy though*/
+	p, i, caption {
 		font-family: 'Merriweather', serif;
-
+		font-color: #585858;
 	}
 
+	/*if you want to change teh color of icons throughout the article feel free, but create
+	a new class name so the navbar icons stay the same color. */
+
+	.fa-twitter {
+	  color: white;
+	  padding-top: .4em;
+	  padding-right: .2em;
+	  font-size: 25px;
+	}
+
+	.fa-facebook {
+	  color: white;
+	  padding-right: .15em;
+	  font-size: 25px;
+	}
 
 /*Links*/
 	a{
@@ -49,8 +64,21 @@
 
 
 /*Navigation*/
-	.navbar .button{
+	/*Don't change anything here unless you run into problems with spacing on section links*/
+	.navbar {
+	 
+	}
 
+	.navbar-inverse {
+	 
+	  
+	}
+
+	 .navbar-brand {
+	  font-size: 24px;
+	  color: white;
+	  font-weight: bold;
+	  padding-left: 1em;
 
 	}
 

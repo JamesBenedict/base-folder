@@ -1,16 +1,11 @@
+/*necessary style choices*/
 
-
-.intro{
-	color: red;
-}
 
 .sidebar img {
 	width: 50%;
 }
 
-.body-copy{
-	color: red;
-}
+
 
 .inline img {
 	width: 100%;
@@ -23,9 +18,12 @@
 	margin-bottom: 50px;
 }
 
-h1{
-	color: purple;
+header{
+	background: url('../img/header.jpg') center center;
+	background-repeat:no-repeat;
+	height: 500px;
 }
+
 	
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
