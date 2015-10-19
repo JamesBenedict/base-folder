@@ -52,4 +52,6 @@ All project folders must be less than 100MB, so size down all your media to only
 	<li><a href="https://www.jsfiddle.net/">jsfiddle</a></li>
 </ul>
 
+<h4>Oct. 18 Notes</h4>
+<p>The breakpoints for the led image are acting up, so right now I'm just loading one and sticking with it. In the future, there will be a small, medium and large image loaded, depending on the screen resolution.</p>
 	
