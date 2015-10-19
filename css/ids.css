@@ -33,6 +33,10 @@ Assume anything not under a media query is for .col-xs */
 		font-weight: bold;
 	}
 
+	.name{
+		font-weight: normal;
+	}
+
 	/*We're never gonna change body copy though*/
 	p, i, caption {
 		font-family: 'Merriweather', serif;
@@ -61,15 +65,14 @@ Assume anything not under a media query is for .col-xs */
 
 	.fa-twitter {
 	  color: white;
-	  padding-top: .4em;
 	  padding-right: .2em;
-	  font-size: 25px;
+	  font-size: 1.6em;
 	}
 
 	.fa-facebook {
 	  color: white;
 	  padding-right: .15em;
-	  font-size: 25px;
+	  font-size: 1.6em;
 	}
 
 /*Links*/
@@ -93,16 +96,48 @@ Assume anything not under a media query is for .col-xs */
 
 	}
 
-	.navbar-inverse {
-	 
-	  
-	}
-
 	.navbar-brand {
 	  font-size: 24px;
 	  color: white;
 	  font-weight: bold;
 	  padding-left: 1em;
+
+	}
+	
+	#bs-example-navbar-collapse-1 ul{
+		font-family: 'Merriweather', serif;
+		text-align: center;
+		margin-top: 0 auto;
+	}
+
+	/*a.navbar-headline{
+		font-family: 'Merriweather', serif;
+		text-decoration: none;
+		text-align: center;
+		margin-left: 2em;
+		margin-right: 2em;
+		width: 500px;
+		line-height: 50px;
+
+	}
+*/	
+	.navbar-headline-mobile {
+		font-family: 'Merriweather', serif;
+		text-decoration: none;
+		text-align: center;
+		margin-left: 2em;
+		width: 500px;
+		line-height: 50px;
+	}
+
+	#bs-example-navbar-collapse-1 li .nav-headline{
+		font-family: 'Merriweather', serif;
+		text-decoration: none;
+		text-align: center;
+		color: white;
+		margin-left: 2em;
+		margin-right: 0em;
+		line-height: 50px;
 
 	}
 
@@ -152,6 +187,26 @@ Assume anything not under a media query is for .col-xs */
 	margin-right: 3%;
 }
 
+/*contributors*/
+.contributors{
+	margin-bottom: 2em;
+}
+
+.contributors p{
+	margin-top: -.6em;
+	margin-bottom: -1em;
+}
+
+.contributors h3{
+	margin-bottom: 1em;
+}
+
+.contributors .fill{
+	display: none;
+}
+
+
+
 /*footer*/
 footer{
 	height: 5em;
@@ -168,38 +223,38 @@ footer{
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm) { 
+@media (min-width:768px) { 
+/*Navbar*/
+	.navbar-headline-mobile {
+		display: none;
+	}
 
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md) { 
-
- }
-
-/* Large devices (large desktops, 1200px and up) */
+/* Medium devices (desktops, 960px and up) */
 @media (min-width:960px) { 
-
-
+/*navbar*/
+	.navbar-headline-mobile {
+		display: none;
+	}
 
 /*Intro and header */
-	.headline{
-		padding-left: 5%;
-		padding-right: 5%;
-	}
-
-	.lead{
-		padding-left: 5%;
-		padding-right: 5%;
-
-	}
 	.byline-mobile{
 		display: none;
 	}
 
 	.byline{
 		display: inline;
+		margin-top: 0em;
+		padding-top: 0em;
 	}
+
+/*article*/
+	.inline-wide img{
+		width: 150%;
+		height: auto;
+	}
+
 
 /*sidebar*/
 	.pulledquote {
@@ -211,6 +266,17 @@ footer{
 
 	}
 
+/*contributors*/
+	.contributors .fill{
+		display: inline;
+		visibility: hidden;
+	}
+
+
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:960px) { 
 
  }
 
