@@ -6,30 +6,32 @@ Assume anything not under a media query is for .col-xs */
 		background-color:#F0F0F0;
 	}
 
-
-	
 /*Fonts and icons*/
 	/*if you want to add a different headline font let us know.*/
 	h1, h2, h3, h4, h5{
 		font-family: 'Lato', sans-serif;
 	}
 
+	/*use h1 for headlines*/
 	h1{
-/*		font-family: 'Abril Fatface', cursive;
-*/		font-family: 'Roboto Slab', serif;
+		font-family: 'Roboto Slab', serif;
 		font-size: 40px;
 		line-height: 1.2;
 		letter-spacing: .05em;
 		font-weight: 900;
+		margin-bottom: -.3em;
 	}
 
+	/*h2 is the italicized subhead.*/
 	h2{
 		font-style: italic;
 		font-size: 20px;
 		line-height: 1.2;
 		color: #939393;
+		margin-bottom: 0em;
 	}
 	
+	/*h6 is used for bylines*/
 	h6{
 		font-family: 'Merriweather', serif;
 		font-size: 16px;
@@ -62,8 +64,7 @@ Assume anything not under a media query is for .col-xs */
 	}
 
 	
-
-	/*if you want to change teh color of icons throughout the article feel free, but create
+	/*if you want to change the color of icons throughout the article feel free, but create
 	a new class name so the navbar icons stay the same color. */
 
 	.fa-twitter {
@@ -80,9 +81,11 @@ Assume anything not under a media query is for .col-xs */
 
 /*Links*/
 
-/*Media*/
+/*media*/
 	figure{
 		width: 100%;
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
 
 	}
 
@@ -109,19 +112,12 @@ Assume anything not under a media query is for .col-xs */
 		margin-bottom: 1em;
 	}
 
-	.chart{
+	/*.chart{
 		margin-top: 1.5em;
 		margin-bottom: 1.5em;
-	}
-
-
-
-	/*.chart{
-		padding-top: 10em;
-		margin-bottom: 10em;
 	}*/
 
-/*Navigation*/
+/*navigation*/
 	/*Don't change anything here unless you run into problems with spacing on section links*/
 	.navbar {
 	 margin-bottom: 0px;
@@ -142,17 +138,6 @@ Assume anything not under a media query is for .col-xs */
 		margin-top: 0 auto;
 	}
 
-	/*a.navbar-headline{
-		font-family: 'Merriweather', serif;
-		text-decoration: none;
-		text-align: center;
-		margin-left: 2em;
-		margin-right: 2em;
-		width: 500px;
-		line-height: 50px;
-
-	}
-*/	
 	.navbar-headline-mobile {
 		font-family: 'Merriweather', serif;
 		text-decoration: none;
@@ -173,19 +158,19 @@ Assume anything not under a media query is for .col-xs */
 
 	}
 
-
-/*Intro and header */
+/*intro row */
 	.byline{
 		display: none;
-		margin-top: 50px;
-		margin-bottom: 50px;
 	}
 
+	.byline-mobile{
+		margin-top: -1em;
+		margin-bottom: 2em;
 
-/*body copy 6 columns*/
+	}
+
+/*inline 6 columns*/
 	
-
-
 /*sidebar 4 columns*/
 	.sidebar img{
 		width: 100%;
@@ -194,58 +179,46 @@ Assume anything not under a media query is for .col-xs */
 	.sidebar .chart {
 		margin-top: 0em;
 	}
-
 	
-
-/*inline 6-12 columns*/ 
-	.inline{
-
+/*breaks*/
+	.break{
+		height: 100%;
 	}
 
-/*breaks*/
-.break{
-	height: 100%;
-}
-
-.break figcaption{
-	margin-left: 3%;
-	margin-right: 3%;
-}
+	.break figcaption{
+		margin-left: 3%;
+		margin-right: 3%;
+	}
 
 /*contributors*/
-.contributors{
-	margin-bottom: 2em;
-}
+	.contributors{
+		margin-bottom: 2em;
+	}
 
-.contributors p{
-	margin-top: -.6em;
-	margin-bottom: -1em;
-}
+	.contributors p{
+		margin-top: -.6em;
+		margin-bottom: -1em;
+	}
 
-.contributors h3{
-	margin-bottom: 1em;
-}
+	.contributors h3{
+		margin-bottom: 1em;
+	}
 
-.contributors .fill{
-	display: none;
-}
-
-
+	.contributors .fill{
+		display: none;
+	}
 
 /*footer*/
-footer{
-	height: 5em;
-	background-color: #585858;
-	color: white;
-	padding: 1em;
-	text-align: right;
-	
-}
+	footer{
+		height: 5em;
+		background-color: #585858;
+		color: white;
+		padding: 1em;
+		text-align: right;
+		
+	}
 
 /*types of media*/
-
-
-
 
 
 /* Extra small devices (phones, up to 480px) */
