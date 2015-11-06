@@ -30,6 +30,10 @@ Assume anything not under a media query is for .col-xs */
 		color: #939393;
 		margin-bottom: 0em;
 	}
+
+	h4{
+		font-weight: bold;
+	}
 	
 	/*h6 is used for bylines*/
 	h6{
@@ -51,6 +55,13 @@ Assume anything not under a media query is for .col-xs */
 		font-color: #585858;
 	}
 
+	em{
+		font-style: normal;
+		font-weight: bold;
+		margin: 0;
+		padding: 0;
+	}
+
 	p{
 		font-size: 16px;
 		line-height: 1.8;
@@ -64,6 +75,8 @@ Assume anything not under a media query is for .col-xs */
 		margin-top: .5em;
 		margin-bottom: 1.5em;
 	}
+
+
 
 	
 	/*if you want to change the color of icons throughout the article feel free, but create
@@ -126,11 +139,15 @@ Assume anything not under a media query is for .col-xs */
 		margin-bottom: 1em;
 	}
 
-	.graphic-lead > h6{
-		font-family: 'Lato', sans-serif;
-		font-weight: normal;
-		
-	}
+	pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+    text-align: left;
+}
+
+
 
 	hr { 
     display: block;
@@ -196,7 +213,6 @@ Assume anything not under a media query is for .col-xs */
 	}
 
 	.headline{
-		margin-bottom: 3%;
 	}
 
 	.intro-caption-mobile{
@@ -290,13 +306,14 @@ Assume anything not under a media query is for .col-xs */
 	}
 
 /*article*/
-	.inline-wide img{
-		width: 150%;
-		height: auto;
-	}
 
 	.inline-wide {
 		width: 125%;
+		height: auto;
+	}
+
+	.inline-narrow{
+		width: 50%;
 		height: auto;
 	}
 

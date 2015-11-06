@@ -97,87 +97,44 @@
 	</li>
 	<li> Day 4
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li>Update your style and submit a new version that complies with the ids style guide.</li>
+			<li>Start debugging</li>
 		</ul>
 	</li>
-	<li>
-		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
-	</li>
-	<li>
-		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
-	</li>
-	<li>
-		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
-	</li>
-	<li>
-		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
-	</li>
-</ul>
-
-<h4> Schedule to Publish</h4>
-<p>Start editing your code with the digital desk a week before publication. We should already know you want to publish with us before a week though. Think of debugging like copy editing. There are going to be problems, and we're here to help make your code as clean as possible. The more you comment on your code, the easier it will be to understand.</p>
-
-<ul>
-	<li>Day 5</li>
-		<ul>
-			<li>Tell us what is envolved with your story</li>
-			<li>Submit a headline/slug</li>
-			<li>List of the types of media in your article and generally where they are going to go</li>
-			<li>How close you think you are to a finished website</li>
-		</ul>
-	<li>Day 4</li>
-		<ul>
-			<li>Work with us to identify bugs you already know about</li>
-			<li>Check the design falls into the ids style guide</li>
-			<li>Create specific todo before publication list</li>
-		</ul>
-	<li>Day 3</li>
+	<li> Day 3
 		<ul>
 			<li>More debugging</li>
-			<li>Fix style inconsistencies</li>
-			<li>Optimize files and remove unused media</li>
+			<li>Remove any features that still aren’t working by the end of the day.</li>
+			<li></li>
 		</ul>
-	<li>Day 2</li>
+	</li>
+	<li> Day 2
 		<ul>
-			<li>Final day of debugging</li>
-			<li>Cut features that still aren’t working</li>
-			<li>Push final version to server</li>
+			<li>Submit a debugged version. It should work on mobile, medium and large screens. If graphics or features aren’t working, they should be removed and a fully functional version submitted. If you are able to get them working before publication you can go back in and add it in, but we want a stable version that we know we can publish this day.</li>
+			<li>Push your folder to our server so it is live. </li>
+			<li>Make a list of problems discovered once the article went live. Normally these are small like a .js file being called in wrong, or an image being locally hosted somewhere outside the project folder.</li>
 		</ul>
-	<li>Day 1 (night of production)</li>
+	</li>
+	<li>Day 1 (night of production):
 		<ul>
-			<li>Update body copy / captions after they are checked by copy editors</li>
-			<li>Check for issues with server</li>
-			<li>Allow SNWorks to look over code</li>
-			<li>Prepare for social media</li>
+			<li>Place in copy edited copy and captions.</li>
+			<li>Fix any issues found when the article went live.</li>
+			<li>Possibly add in fixed features that were removed the day before.</li>
+			<li>Prepare article for social media.</li>
 		</ul>
-	<li>Day 0 (the article is live)</li>
-		<li> So far every build out I’ve done had issues appear only once it went live. Normally, they aren’t very complicated (e.g. the wrong resolution of a photo was uploaded, it doesn’t scale down well on iPhone 4, etc.) but you should be able to make changes that morning</li>
+	</li>
+	<li> Day 0 (day is appears in the paper)
+		<ul>
+			<li>Sleep</li>
+			<li>Try to be available to contact if other problems pop up or the story gains a lot of traction online.</li>
+		</ul>
+	</li>
 </ul>
-
 
 
 <h2>Working Notes</h2>
-<p>This is still early on and things are probably going to move around a lot quickly.  Expect the first template with a layout grid and basic css by Oct. 17 and another template with working media examples by the end of the following week. The structure should be finalized by the end of October. Then I'm going to work on improving functionality and the overall smoothness throughout the semester. The more feedback I get from you guys, the more bugs will be exposed and the better the final project will be.</p>
 
-<p>There a pretty big range of experience here so I'm going to try and include more notes on my working process and planned features below in case anyone is interested. I tend to ramble so I appologize if it gets long.</p> 
+<p>There is a pretty big range of experience here so I'm going to try and include more notes on my working process and planned features below in case anyone is interested. I tend to ramble so I appologize if it gets long.</p> 
 
 <h4>Types of Supported Media</h4>
 <ul>
