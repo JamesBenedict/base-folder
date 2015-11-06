@@ -8,7 +8,7 @@ Assume anything not under a media query is for .col-xs */
 
 /*Fonts and icons*/
 	/*if you want to add a different headline font let us know.*/
-	h1, h2, h3, h4, h5{
+	h2, h3, h4, h5{
 		font-family: 'Lato', sans-serif;
 	}
 
@@ -34,13 +34,16 @@ Assume anything not under a media query is for .col-xs */
 	/*h6 is used for bylines*/
 	h6{
 		font-family: 'Merriweather', serif;
-		font-size: 16px;
 		font-weight: bold;
+		font-size: 16px;
+		
 	}
 
 	.name{
 		font-weight: normal;
 	}
+
+
 
 	/*We're never gonna change body copy though*/
 	p, i, caption {
@@ -55,11 +58,10 @@ Assume anything not under a media query is for .col-xs */
 	}
 
 	figcaption{
-		font-style: italic;
 		font-weight: 300;
-		font-size: 12px;
+		font-size: .8em;
 		line-height: 1.4em;
-		margin-top: 1.5em;
+		margin-top: .5em;
 		margin-bottom: 1.5em;
 	}
 
@@ -84,13 +86,21 @@ Assume anything not under a media query is for .col-xs */
 /*media*/
 	figure{
 		width: 100%;
-		margin-top: 1.5em;
+		margin-top: 0em;
 		margin-bottom: 1.5em;
 
 	}
 
-	img{
+	figure > img{
 		width: 100%;
+	}
+
+	figure > em {
+		font-size: .8em;
+		margin-bottom: .5em;
+		width: 100%;
+		text-align: right;
+		float: right;
 
 	}
 
@@ -116,10 +126,22 @@ Assume anything not under a media query is for .col-xs */
 		margin-bottom: 1em;
 	}
 
-	/*.chart{
-		margin-top: 1.5em;
-		margin-bottom: 1.5em;
-	}*/
+	.graphic-lead > h6{
+		font-family: 'Lato', sans-serif;
+		font-weight: normal;
+		
+	}
+
+	hr { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+	border-color: #d7d7d7;
+	border-width: .1em;
+}
 
 /*navigation*/
 	/*Don't change anything here unless you run into problems with spacing on section links*/
@@ -173,6 +195,14 @@ Assume anything not under a media query is for .col-xs */
 
 	}
 
+	.headline{
+		margin-bottom: 3%;
+	}
+
+	.intro-caption-mobile{
+		margin-top: 5px;
+	}
+
 /*inline 6 columns*/
 	
 /*sidebar 4 columns*/
@@ -183,6 +213,10 @@ Assume anything not under a media query is for .col-xs */
 	.sidebar .chart {
 		margin-top: 0em;
 	}
+
+	/*.sidebar > figure{
+		margin-top: 0px;
+	}*/
 	
 /*breaks*/
 	.break{
@@ -215,7 +249,7 @@ Assume anything not under a media query is for .col-xs */
 /*footer*/
 	footer{
 		height: 5em;
-		background-color: #585858;
+		background-color: #101010;
 		color: white;
 		padding: 1em;
 		text-align: right;
@@ -261,6 +295,11 @@ Assume anything not under a media query is for .col-xs */
 		height: auto;
 	}
 
+	.inline-wide {
+		width: 125%;
+		height: auto;
+	}
+
 
 /*sidebar*/
 	.pulledquote {
@@ -280,6 +319,8 @@ Assume anything not under a media query is for .col-xs */
 
 
  }
+
+ 
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width:960px) { 
