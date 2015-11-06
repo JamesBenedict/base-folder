@@ -21,6 +21,9 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+	<link href='//cdn.knightlab.com/libs/soundcite/latest/css/player.css' rel='stylesheet' type='text/css'><script type='text/javascript' src='//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js'></script>
+        
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/ids.css"> 
 
@@ -253,23 +256,30 @@
 	<div class="row article"> <!-- Same goes for the article row -->
 		<div class="col-md-offset-1 col-md-7 body-copy"> 
 			<h3>Figure Media</h3>
-				<p> Figure media live in figure tags. Suprsing I know. Figures are boxes that keep your media and caption grouped together. It also provides a margin around the figure to give some space.</p>
+				<p> Figure media lives in figure tags. Suprsing I know. Figures are boxes that keep your media and caption grouped together. It also provides a margin around them to give it some space.</p>
 
 			<h4>Images</h4>
+				<p>Save images as either jpg or gifs</p>
+				
 				<figure>
 					<img src="img/img.sm.jpg" alt="small example image">
-					<figcaption>This is an image, yay! </figcaption>
+					<figcaption>This is an picture </figcaption>
+				</figure>
+
+				<figure>
+					<img src="img/example.gif" alt="small example image">
+					<figcaption>This is an gif. It is low resolution so it is a little  blurry. If you save a larger file there should be more fidelity.</figcaption>
 				</figure>
 
 				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor erat, feugiat a mollis in, venenatis eget turpis. Morbi in nunc mauris. Fusce consequat nisl id arcu vestibulum, vitae vulputate arcu maximus.</p>
-				<em>Features to Change</em>
+				<h5>Features to Change</h5>
 				<ul>
 					<li>Consistent optimization protocol</li>
 				</ul>
 			<hr>
 
 			<h4>Video</h4>
-			<p> Save as mp4</p>
+				<p> Save as mp4</p>
 
 				<figure>
 					<video width="100%" height="auto" autoplay>
@@ -292,28 +302,75 @@
 					<figcaption>This is an embedded video from youtube.</figcaption>
 				</figure>
 				
-				<em>Features to Change</em>
+				<h5>Features to Change</h5>
 				<ul>
-					<li>Consistent optimization protocol</li>
+					<li>add in ambient videos or cinemagraphs or harry potter photos</li>
+					<li>make looping videos</li>
 				</ul>
 
+				<hr>
+
 			<h4>Audio</h4>
+				<p>The default audio play for HTMl kind of sucks in my opinion, but you can include plain audio files  this way.</p>
+
+				<figure>
+					<audio controls>
+					  <source src="audio/example.mp3" type="audio/mp3">
+					Your browser does not support the audio element.
+					</audio>
+				</figure>
+
+				<p>For longer audio pieces, I would upload them to soundcloud and then embed this file in a figure tag.</p>
+
+				<figure>
+					<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/190194548&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+				</figure>
+
+				<p>You can also use soundcite for small audio ques like this <span class="soundcite" data-url="https://s3.amazonaws.com/media.ids/60208_exampleo.mp3" data-start="0" data-end="0" data-plays="1">pop</span>. More is explained later on under html media.</p>
+
+				<h5>Features to Change</h5>
+				<ul>
+					<li>add in audio slideshows (for now plan on making a video for them)</li>
+				</ul>
+<hr>
 
 			<h4>Embed</h4>
-		
+				<p>Some content you're just going to want to embed from another service. I highly encourage this and have listed some programs below of things I think are useful.</p>
+				
+				<h5>Recommended Services</h5>
+					<ul>
+						<li>Youtube</li>
+						<li>soundcloud</li>
+						<li>google maps</li>
+					</ul>
 
-			
+				<figure>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d12372.828007555223!2d-86.51481299999999!3d39.170014599999995!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1445227255470" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<figcaption>Here's a map caption</figcaption>
+				</figure>
+
+
+				<h5>Features to Change</h5>
+					<ul>
+						<li>finalize recommended services</li>
+					</ul>
+
+			<hr>
 		</div> <!-- end of body-copy column -->
 
+		<div class="row article"> <!-- Same goes for the article row -->
+		<div class="col-md-offset-1 col-md-7 body-copy"> 
+			<h3>Figure Media</h3>
+
 		
 
-		<div class="col-md-offset-1 col-md-6 body-copy">
+		<div class="col-md-offset-1 col-md-7 body-copy">
 			<p> Aenean id volutpat lacus. Suspendisse in dolor tempus neque sagittis tempor. Suspendisse at malesuada turpis. Nunc tristique elementum est egestas viverra. Pellentesque id sapien sed velit porttitor feugiat ut a dolor. Nullam fringilla ante id tortor placerat, in rutrum massa euismod. Quisque pellentesque eu lectus quis dapibus. Curabitur aliquam vehicula tellus, et egestas quam auctor sed. Nullam convallis suscipit est nec malesuada. Morbi a ligula eget ex faucibus varius sed a est. Integer enim magna, convallis vitae lectus rutrum, lacinia pulvinar nibh. Donec semper, turpis a dapibus posuere, eros lectus convallis libero, nec pellentesque est elit et tortor.</p>
 		</div> <!-- end of body copy -->
 
 		
 
-		<div class="col-md-offset-1 col-md-6 inline">
+		<div class="col-md-offset-1 col-md-7 inline">
 			<p> In pharetra aliquam neque a posuere. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer eget ligula ut mi ornare vulputate. Maecenas finibus eleifend ipsum. Aliquam ante orci, elementum in odio eu, bibendum volutpat augue. In hac habitasse platea dictumst. Donec tincidunt varius tortor ut finibus. Sed vel leo vel sapien dictum lobortis eget nec eros. Vestibulum vel porttitor augue. Aliquam quis magna vitae tellus tincidunt rutrum a ac velit.</p>
 			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor erat, feugiat a mollis in, venenatis eget turpis. Morbi in nunc mauris. Fusce consequat nisl id arcu vestibulum, vitae vulputate arcu maximus. Nullam maximus lacus at sem feugiat, at scelerisque felis mollis. Cras in odio at turpis fringilla porta. Duis ultricies ex id quam laoreet tincidunt. Mauris scelerisque tortor at ligula scelerisque, quis scelerisque enim condimentum. In aliquam aliquet diam ut facilisis. Integer commodo vehicula cursus. Sed elit nisi, interdum ac cursus ornare, luctus a sem.</p>
 			<div class="pulledquote">
@@ -331,7 +388,7 @@
 			</figure>
 		</div><!-- End of sidebar -->
 
-		<div class="col-md-offset-1 col-md-6 body-copy">
+		<div class="col-md-offset-1 col-md-7 body-copy">
 			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor erat, feugiat a mollis in, venenatis eget turpis. Morbi in nunc mauris. Fusce consequat nisl id arcu vestibulum, vitae vulputate arcu maximus. Nullam maximus lacus at sem feugiat, at scelerisque felis mollis. Cras in odio at turpis fringilla porta. Duis ultricies ex id quam laoreet tincidunt. Mauris scelerisque tortor at ligula scelerisque, quis scelerisque enim condimentum. In aliquam aliquet diam ut facilisis. Integer commodo vehicula cursus. Sed elit nisi, interdum ac cursus ornare, luctus a sem.</p>
 		</div> <!-- end of body copy -->
 
@@ -355,7 +412,7 @@
 	
 <div class="container-fluid">	
 	<div class="row article">
-		<div class="col-md-offset-1 col-md-6 body-copy">
+		<div class="col-md-offset-1 col-md-7 body-copy">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor erat, feugiat a mollis in, venenatis eget turpis. Morbi in nunc mauris. Fusce consequat nisl id arcu vestibulum, vitae vulputate arcu maximus. Nullam maximus lacus at sem feugiat, at scelerisque felis mollis. Cras in odio at turpis fringilla porta. Duis ultricies ex id quam laoreet tincidunt. Mauris scelerisque tortor at ligula scelerisque, quis scelerisque enim condimentum. In aliquam aliquet diam ut facilisis. Integer commodo vehicula cursus. Sed elit nisi, interdum ac cursus ornare, luctus a sem.</p>
 			
 			<figure class="inline-wide">
@@ -381,7 +438,7 @@
 
 <div class="container-fluid">
 	<div class="row article">
-		<div class="col-md-offset-1 col-md-6 body-copy">
+		<div class="col-md-offset-1 col-md-7 body-copy">
 			<h3>Slideshows</h3>
 			<h4>I'm using Bootstrap's <a href="http://getbootstrap.com/javascript/#carousel">carousel </a>feature for slideshows.</h4>
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -428,7 +485,7 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor erat, feugiat a mollis in, venenatis eget turpis. Morbi in nunc mauris. Fusce consequat nisl id arcu vestibulum, vitae vulputate arcu maximus. Nullam maximus lacus at sem feugiat, at scelerisque felis mollis. Cras in odio at turpis fringilla porta. Duis ultricies ex id quam laoreet tincidunt. Mauris scelerisque tortor at ligula scelerisque, quis scelerisque enim condimentum. In aliquam aliquet diam ut facilisis. Integer commodo vehicula cursus. Sed elit nisi, interdum ac cursus ornare, luctus a sem.</p>
 	</div>
 
-	<div class="col-md-offset-1 col-md-6 body-copy">
+	<div class="col-md-offset-1 col-md-7 body-copy">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor erat, feugiat a mollis in, venenatis eget turpis. Morbi in nunc mauris. Fusce consequat nisl id arcu vestibulum, vitae vulputate arcu maximus. Nullam maximus lacus at sem feugiat, at scelerisque felis mollis. Cras in odio at turpis fringilla porta. Duis ultricies ex id quam laoreet tincidunt. Mauris scelerisque tortor at ligula scelerisque, quis scelerisque enim condimentum. In aliquam aliquet diam ut facilisis. Integer commodo vehicula cursus. Sed elit nisi, interdum ac cursus ornare, luctus a sem.</p>
 
 		<p>Donec fringilla elit in sapien tincidunt placerat. In consectetur elementum elit, eu pretium ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur aliquam augue quis ultrices. Donec hendrerit finibus orci vitae aliquet. Sed vestibulum rhoncus ante, nec consequat enim interdum in. Pellentesque feugiat turpis lorem, vestibulum luctus velit tincidunt ac.</p>
@@ -475,7 +532,7 @@
 	</div> <!-- end of row -->
 
 	<div class="row article">
-		<div class="col-md-offset-1 col-md-6 body-copy">
+		<div class="col-md-offset-1 col-md-7 body-copy">
 			<h3>Interactive Charts</h3>
 			<h4>Use highcharts.js for your interactive charts, you can either place them in by calling a script, or embed it from jsfiddle.</h4>
 			
@@ -486,7 +543,7 @@
 			</figure>
 		</div> <!-- end of interactive charts column -->
 
-		<div class="col-md-offset-1 col-md-6 body-copy">
+		<div class="col-md-offset-1 col-md-7 body-copy">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor erat, feugiat a mollis in, venenatis eget turpis. Morbi in nunc mauris. Fusce consequat nisl id arcu vestibulum, vitae vulputate arcu maximus. Nullam maximus lacus at sem feugiat, at scelerisque felis mollis. Cras in odio at turpis fringilla porta. Duis ultricies ex id quam laoreet tincidunt. Mauris scelerisque tortor at ligula scelerisque, quis scelerisque enim condimentum. In aliquam aliquet diam ut facilisis. Integer commodo vehicula cursus. Sed elit nisi, interdum ac cursus ornare, luctus a sem.</p>
 			<p>Aenean id volutpat lacus. Suspendisse in dolor tempus neque sagittis tempor. Suspendisse at malesuada turpis. Nunc tristique elementum est egestas viverra. Pellentesque id sapien sed velit porttitor feugiat ut a dolor. Nullam fringilla ante id tortor placerat, in rutrum massa euismod. Quisque pellentesque eu lectus quis dapibus. Curabitur aliquam vehicula tellus, et egestas quam auctor sed. Nullam convallis suscipit est nec malesuada. Morbi a ligula eget ex faucibus varius sed a est. Integer enim magna, convallis vitae lectus rutrum, lacinia pulvinar nibh. Donec semper, turpis a dapibus posuere, eros lectus convallis libero, nec pellentesque est elit et tortor.</p>
 

@@ -34,6 +34,13 @@ Assume anything not under a media query is for .col-xs */
 	h4{
 		font-weight: bold;
 	}
+
+	h5{
+		font-style: normal;
+		font-size: 1em;
+		font-weight: 700;
+		
+	}
 	
 	/*h6 is used for bylines*/
 	h6{
@@ -55,12 +62,7 @@ Assume anything not under a media query is for .col-xs */
 		font-color: #585858;
 	}
 
-	em{
-		font-style: normal;
-		font-weight: bold;
-		margin: 0;
-		padding: 0;
-	}
+	
 
 	p{
 		font-size: 16px;
@@ -239,10 +241,21 @@ Assume anything not under a media query is for .col-xs */
 		height: 100%;
 	}
 
+	/*annoyingly, I can't just include all the text (h1,h2,h3,etc.) after .break as it only applies to the first one listed not everything.
+	if you want to include more text in a break, just at .break h2 {} or whatever text you want.*/
+
 	.break figcaption{
-		margin-left: 3%;
-		margin-right: 3%;
-	}
+			margin-left: 3%;
+			margin-right: 3%;
+		}
+
+	.break h4{
+			margin-left: 3%;
+			margin-right: 3%;
+		}
+	
+	
+
 
 /*contributors*/
 	.contributors{
