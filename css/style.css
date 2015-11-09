@@ -13,10 +13,11 @@
 }
 
 .dropcap{
+		font-family: 'Roboto Slab', serif;
 		float: left;
 		font-size: 5em;
 		line-height: .8em;
-		margin-top: .15em;
+		margin-top: 0.04em;
 		margin-right: .1em;
 		padding: 0;
 	}
