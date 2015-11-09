@@ -8,7 +8,7 @@
 	-o-background-size: cover;
 	background-size: cover;
     height: 100vh;
-     margin-top: 3%;
+    margin-top: 0%;
     background-attachment: scroll;
 }
 
@@ -51,7 +51,7 @@
 	-o-background-size: cover;
 	background-size: cover;
     height: 100vh;
-    margin-top: 3%;
+    margin-top: 0%;
     background-attachment: scroll;
 }
 

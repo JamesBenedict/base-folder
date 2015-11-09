@@ -15,19 +15,19 @@ Assume anything not under a media query is for .col-xs */
 	/*use h1 for headlines*/
 	h1{
 		font-family: 'Roboto Slab', serif;
-		font-size: 40px;
+		font-size: 4.5em;
 		line-height: 1.2;
 		letter-spacing: .05em;
 		font-weight: 900;
-		margin-bottom: -.3em;
+		margin-bottom: -.1em;
 	}
 
 	/*h2 is the italicized subhead.*/
 	h2{
-		font-size: 20px;
-		line-height: 1.2;
+		font-size: 1.7em;
+		line-height: 1.2em;
 		color: #939393;
-		margin-bottom: 0em;
+		margin-bottom: 1em;
 	}
 
 	h4{
@@ -37,7 +37,7 @@ Assume anything not under a media query is for .col-xs */
 	h5{
 		font-style: normal;
 		font-size: 1.2em;
-		
+
 	}
 	
 	/*h6 is used for bylines*/
@@ -45,6 +45,8 @@ Assume anything not under a media query is for .col-xs */
 		font-family: 'Merriweather', serif;
 		font-weight: bold;
 		font-size: 16px;
+		line-height: 1.5em;
+
 		
 	}
 
@@ -114,7 +116,6 @@ Assume anything not under a media query is for .col-xs */
 		width: 100%;
 		text-align: right;
 		float: right;
-
 	}
 
 	.pulledquote p{
@@ -175,21 +176,23 @@ Assume anything not under a media query is for .col-xs */
 	  color: white;
 	  font-weight: bold;
 	  padding-left: 1em;
-
 	}
+
+
+
 	nav{
 		margin-bottom: 500px;
 	}
 	
 	
 	#bs-example-navbar-collapse-1 ul{
-		font-family: 'Merriweather', serif;
+		font-family: 'lato', serif;
 		text-align: center;
 		margin-top: 0 auto;
 	}
 
 	.navbar-headline-mobile {
-		font-family: 'Merriweather', serif;
+		font-family: 'lato', serif;
 		text-decoration: none;
 		text-align: center;
 		margin-left: 2em;
@@ -198,7 +201,7 @@ Assume anything not under a media query is for .col-xs */
 	}
 
 	#bs-example-navbar-collapse-1 li .nav-headline{
-		font-family: 'Merriweather', serif;
+		font-family: 'lato', serif;
 		text-decoration: none;
 		text-align: center;
 		color: white;
@@ -220,6 +223,10 @@ Assume anything not under a media query is for .col-xs */
 	}
 
 	.headline{
+	}
+
+	.led{
+		margin-top: 1em;
 	}
 
 	.intro-caption-mobile{
