@@ -11,6 +11,7 @@ Assume anything not under a media query is for .col-xs */
 	h2, h3, h4, h5{
 		font-family: 'Lato', sans-serif;
 		color: #4b4b4b;
+		margin-top: 0em;
 
 	}
 
@@ -35,7 +36,7 @@ Assume anything not under a media query is for .col-xs */
 	}
 	
 	h3{
-
+		font-size: 1.8em;
 	}
 
 	h4{
@@ -150,17 +151,13 @@ Assume anything not under a media query is for .col-xs */
 		margin-bottom: 1em;
 	}
 
-	pre {
-    display: block;
-    font-family: monospace;
-    white-space: pre;
-    margin: 1em 0;
-    text-align: left;
-}
+	
 
 
 
-	hr { 
+
+
+hr { 
     display: block;
     margin-top: 1em;
     margin-bottom: 2em;
@@ -253,6 +250,18 @@ Assume anything not under a media query is for .col-xs */
 
 	.sidebar  h6{
 		margin-top: 0em;
+	}
+
+	.sidebar-info{
+		/*border-bottom-style: solid;
+		border-top-style: solid;
+		border-color: #d7d7d7;
+		border-width: .1em;*/
+	
+	}
+
+	.sidebar-related{
+
 	}
 
 	/*.sidebar > figure{
@@ -357,6 +366,7 @@ Assume anything not under a media query is for .col-xs */
 
 /*sidebar*/
 	.pulledquote {
+		color: #5996AD;
 		margin-top: 1.5em;
 		margin-bottom: 1.5em;
 	}
