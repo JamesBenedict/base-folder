@@ -76,14 +76,12 @@
 </ul>
 
 <h4>Week 2</h4>
-
-<h4>Week 3</h4>
 <p>We need a full week to edit your code, so make sure to submit a rough draft a five days before your publication date. Every day has specific deadlines this week. You can come into the IDS to work if you want hands on help, or can submit folders remotely. </p>
 <ul>
 	<li>Day 5
 		<ul>
 			<li>Tell us about major bugs or style problems you haven’t been able to figure out. </li>
-			<li>Come in to receive an edited rough draft. You will receive two to do lists, one for bugs and other to make it comply with the ids style guide.</li>
+			<li>Come in to receive an edited rough draft. You will receive two to do lists, one for bugs and other to make it comply with the ids style guide. Don't worry if there is still a lot to do here, most first drafts are far from finsihed.</li>
 			<li>Submit a final slug for use in the url of your website.</li>
 			<li>Consider reaching out to experts or subjects in your story for promotion on social media. Tell them you plan to publish in a week and ask would they retweet or share your story on facebook. Try sharing your story in multiple niche circles where it will gain the best traction online. </li>
 		</ul>
@@ -129,23 +127,6 @@
 
 <p>There is a pretty big range of experience here so I'm going to try and include more notes on my working process and planned features below in case anyone is interested. I tend to ramble so I appologize if it gets long.</p> 
 
-<h4>Types of Supported Media</h4>
-<ul>
-	<li>Photo</li>
-	<li>Video</li>
-	<li>Gifs</li>
-	<li>Audio</li>
-	<li>Pulled Quotes / Numbers</li>
-	<li>Teaser / related content</li>
-	<li>Highcharts.js</li>
-	<li>Mapbox or Google Maps</li>
-	<li>Live data tables</li>
-	<li>slideshow</li>
-	<li>storymap.js</li>
-	<li>juxtapostion.js</li>
-	<li>timeline.js</li>
-	<li>soundcite.js</li>
-</ul>
 
 <h4>Things I've used so far</h4>
 <ul>
