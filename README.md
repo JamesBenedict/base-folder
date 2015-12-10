@@ -3,40 +3,41 @@
 <p>This is a general template to publish long form articles at the Indiana Daily Student. If you have any questions, feel free to come talk to me at the IDS Mondays and Wednesday from 3 - 4 p.m. or email me at jabenedi@indiana.edu.</p>
 <p>This template is adapted from <a href="http://specials.idsnews.com/caps/"> Waiting for Help</a> published in the Spring of 2015 at the <a href="http://www.idsnews.com">Indiana Daily Student</a>. It is being developed for stories from Bonnie Layton's multimedia section of the Words and Pictures course at IU in the Fall of 2015.</p>
 
-<h2>Stories developed from this template</h2>
+<h2>Stories developed</h2>
 <ul>
 	<li><a href="http://http://specials.idsnews.com/yaolin/">Friends regret not calling the police, describe a pattern of repeated abuse</a></li>
+	<li><a href="http://http://specials.idsnews.com/mental-health/">State of Mind</a></li>
+	<li><a href="http://http://specials.idsnews.com/refugees/">The Unsettled</a></li>
 </ul>
 
 <h1>Getting Started</h1>
 
-<p>This template was developed to provide a starting point for designers looking to publish their first responsive article. I tried to keep it simple and have it serve as a skeleton for your design. 
+<p>This template was developed to provide a starting point for designers looking to publish their first responsive article. I tried to keep it simple and have it serve as a skeleton for your design. Hopefully you add on and make it your own, but if you want somewhere simple to start all the basic styling is done.</p>
+
+<p>Download the template folder from github. You can either download the folder as a zip or setup github on your computer. If you're confused about github and want to use it come into office hours. It is definitely easier to show the tell how to use.
 </p>
 
-<p>Download the template folder from github. You can either download the folder as a zip or setup github and fork it. If you're confused about github and want to use it come into office hours.
+<p>There will be a starter folder in the template. Pull it out of the template folder and rename it your story’s slug. Don't change the template folder’s files but keep it as a resource to copy paste from. If anything does break, you can always redownload the folder. The starter folder only has the basics in it to keep it light. This will save you time when you edit your project folder for extraneous files.
 </p>
 
-<p>There will be a starter folder in the template. Pull it out of the template folder and rename it your story’s slug. Don't change the template folder’s files but keep it as a resource to copy paste from. If anything does break, you can always redownload the folder. The starter folder only has the basics in it to keep it light.
+<p>Try to only work on a few things at a time and work on them until they are functional. Don't leave a bunch of half finished features you plan on finalizing later. Since this is a collaborative project make sure to comment your code well on anything that isn't followable. So far the biggest bug I've found is inproperly closed divs. I find commenting what is being closed after the closing div tag helps me prevent this when I'm making my own projects.
 </p>
 
-<p>Try to only work on a few things at a time and work on them until they are functional. Don't leave a bunch of half finished features you plan on finalizing later. Since this is a collaborative project make sure to comment your code well on anything you don’t think makes sense. 
+<p>I normally start by placing my section heads and linking them into the nav bar. Then I move onto placing the first draft of the copy, before starting to layout the media. If you feel lost and don't know where to start, come talk with me in officer hours.
 </p>
 
-<p>I normally start by placing my section heads and linking them into the nav bar. Then I move onto placing the first draft of the copy, before starting to layout the media. 
-</p>
-
-<p>The story’s structure will change around during the editing process so don't get too caught up on the exact layout of everything. Instead try to make sure everything is working and the in the right area (inline, sidebar or break). Also try to write in clear modules of code so it is easier to copy and paste in different parts of the article. I often have a comment before and after code modules that might switch around. Think about building with legos not bricks. 
+<p>The story’s structure will change around during the editing process so don't get too caught up on the exact layout of everything. Instead try to make sure everything is working and the in the right area (inline, sidebar or break). Also try to write in clear modules of code so it is easier to copy and paste in different parts of the article. I normally have a comment before and after code modules that might switch around. Think about building with legos not bricks. If you do this though, make sure to save often so if something goes wrong you can go back to a working version. I'll normally have a test.html page where I'll copy my entire index page to when I'm adding a feature. Once the test works, I can paste it back into my index page. If you want to have even more protection with project backups, come into office hours and we can go over github.
 </p>
 
 <h1>Rules for Publish in the IDS</h1>
 
-<p>Follow all commented instructions and call ids.css and ids.js last in your html. There is no absolute style rulebook, and we're open to changes as long as you have a compelling justification.
+<p>Follow all commented instructions and call ids.css and ids.js last in your html. There is no absolute style rulebook, and I'm open to changes as long as you have a compelling justification.
 </p>
 
-<p>Try to keep the digital desk updated on your story throughout your reporting and not just when you're ready to publish. You should start working with us directly three weeks before publication, I’ve included outline with deadlines for each week included in the next section. 
+<p>Try to keep the digital desk updated on your story throughout your reporting and not just when you're ready to publish. You should start working with us directly two weeks before publication, I’ve included outline with deadlines for each week included in the next section. 
 </p>
 
-<p>The earlier we know how you're going to tell the story the better it will work online. I'm excited if you want a featured added so just let me know if you have any ideas. We will likely be debugging eight to ten stories at the end of the semester, so we need to already be familiar with your code and its issues before then.
+<p>The earlier we know how you're going to tell the story the better it will work online. I'm excited if you want a featured added so just let me know if you have any ideas. We will likely be debugging eight stories at the end of the semester, so we need to already be familiar with your code and its issues before then.
 </p>
 
 <p>When you’re designing your story, keep all your files in your project folder. Story structures jump around, and photos get swapped out late so it is best to have everything in your folder even though it will be large. Still optimize your images for the web, don’t have duplicates, etc. but if there is a chance it will be needed in the final project keep it in. We will work to get your folder slim before publishing.
@@ -53,15 +54,9 @@
 	<li>More info to come</li>
 </ul>
 
-<h3>Recommended Services</h3>
-<ul>
-	<li>Youtube</li>
-	<li>SoundCloud</li>
-</ul>
-
 <h1>Schedule and Deadlines</h1>
 
-<p>Start working with our desk roughly three weeks before you want to publish. If you meet a deadline early you can move on to the next week.
+<p>Start working with our desk roughly two weeks before you want to publish. If you meet a deadline early you can move on to the next week.
 </p>
 
 <h4>Week 1</h4>
@@ -75,14 +70,12 @@
 		</ul>
 	<li>Make sure you’re signed up for our <a href="https://jamesbenedict.slack.com/messages">slack account</a> so we can be in communication throughout the editing process.</li>
 	<li>Come into an office hour (M/W 3-4 p.m.) or schedule a time to meet with me to discuss your story. Think of ideas you want to include in your story that you couldn’t figure out or any big challenges you’re nervous about. We will also go through how to get started with the folder. </li>
-</ul>
-
-<h4>Week 2</h4>
-<ul>
 	<li>Use the starter folder and copy-paste over examples from the template folder. If you run into issues getting things to work properly send us a message on slack. We might be able to identify the problem or send you a code snippet to fix it.</li>
 	<li>Come into office hours or schedule a time to meet me to discuss more complicated problems.</li>
 	<li>By the end of the week submit a first draft of your article. If you need / want to use lorem ipsum text that’s fine but have your media layed out in the correct hierarchy.</li>
 </ul>
+
+<h4>Week 2</h4>
 
 <h4>Week 3</h4>
 <p>We need a full week to edit your code, so make sure to submit a rough draft a five days before your publication date. Every day has specific deadlines this week. You can come into the IDS to work if you want hands on help, or can submit folders remotely. </p>
