@@ -1,4 +1,4 @@
-# ids-buildout-base
+# responsive template
 <h1>Intro</h1>
 <p>This is a general template to publish long form articles at the Indiana Daily Student. If you have any questions, feel free to come talk to me at the IDS Mondays and Wednesday from 3 - 4 p.m. or email me at jabenedi@indiana.edu.</p>
 <p>This template is adapted from <a href="http://specials.idsnews.com/caps/"> Waiting for Help</a> published in the Spring of 2015 at the <a href="http://www.idsnews.com">Indiana Daily Student</a>. It is being developed for stories from Bonnie Layton's multimedia section of the Words and Pictures course at IU in the Fall of 2015.</p>
