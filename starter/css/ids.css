@@ -17,9 +17,8 @@ Assume anything not under a media query is for .col-xs */
 	/*use h1 for headlines*/
 	h1{
 		font-family: 'Roboto Slab', serif;
-		font-size: 4.8em;
-		line-height: 1.2;
-		letter-spacing: .05em;
+		font-size: 5em;
+		line-height: 1;
 		font-weight: 900;
 		margin-bottom: 0em;
 		margin-top: .6em;
@@ -28,7 +27,7 @@ Assume anything not under a media query is for .col-xs */
 	/*h2 is the italicized subhead.*/
 	h2{
 		font-size: 1.8em;
-		line-height: 1.3em;
+		line-height: 1.4em;
 /*		color: #939393;
 */		margin-bottom: 1em;
 		font-weight: 300;
@@ -50,15 +49,21 @@ Assume anything not under a media query is for .col-xs */
 	
 	/*h6 is used for bylines*/
 	h6{
-		font-family: 'Lora', serif;
+		font-family: 'lato', serif;
 		font-size: 16px;
 		line-height: 1.5em;
 
 		
 	}
 
-	.by{
-		font-weight: bold;
+	.bold {
+	font-weight: bold;
+}
+	.red{
+		color: #991C26;
+	}
+	.blue{
+		color: #1F5B83;
 	}
 
 
@@ -79,7 +84,7 @@ Assume anything not under a media query is for .col-xs */
 
 	figcaption{
 		font-weight: 300;
-		font-size: .8em;
+		font-size: 1em;
 		line-height: 1.4em;
 		margin-top: .5em;
 		margin-bottom: 1.5em;
@@ -125,25 +130,17 @@ Assume anything not under a media query is for .col-xs */
 		float: right;
 	}
 
-	.pulledquote p{
-		padding: 0;
-		margin: 0;
-		margin-top: .5em;
-	}
+	
 
 
 	.pulledquote{
-		border-left: solid 10px;
-		padding-left: 20px;
-		margin-top: 1.5em;
-		margin-bottom: 1.5em;
-		width: 75%;
+		display: none;
 	}
-
-	.sidebar > .pulledquote{
-		margin-top: 100px;
+	
+	/*.sidebar > .pulledquote{
+		margin-top: 10px;
 	}
-
+*/
 	
 	#carousel-example-generic{
 		margin-top: 1em;
@@ -221,19 +218,23 @@ Assume anything not under a media query is for .col-xs */
 /*intro row */
 	.byline{
 		display: none;
+
 	}
 
 	.byline-mobile{
 		margin-top: -1em;
 		margin-bottom: 2em;
+		text-align: center;
 
 	}
 
 	.headline{
+		text-align: center;
 	}
 
 	.led{
-		margin-top: 1em;
+		margin-top: .8em;
+		text-align: center;
 	}
 
 	.intro-caption-mobile{
@@ -243,6 +244,10 @@ Assume anything not under a media query is for .col-xs */
 /*inline 6 columns*/
 	
 /*sidebar 4 columns*/
+
+	.sidebar{
+		margin-top: -.5em;
+	}
 	.sidebar img{
 		width: 100%;
 	}
@@ -308,6 +313,10 @@ Assume anything not under a media query is for .col-xs */
 		
 	}
 
+	footer a{
+		color: #4b4b4b;
+	}
+
 /*types of media*/
 
 
@@ -321,6 +330,36 @@ Assume anything not under a media query is for .col-xs */
 		display: none;
 	}
 
+	h1{
+		
+		font-size: 8em;
+		
+	}
+
+	.pulledquote{
+		padding-left: 20px;
+		margin-top: 0em;
+		margin-bottom: 1.5em;
+		width: 75%;
+		display: inline;
+	}
+
+	.pulledquote h3{
+		font-weight: 300;
+		margin-top: -.5em;
+	}
+	
+	.pulledquote p{
+		padding: 0;
+		margin: 0;
+		margin-top: .5em;
+		font-family: 'lato';
+		font-weight: 900;
+
+	}
+
+
+
 }
 
 
@@ -332,8 +371,11 @@ Assume anything not under a media query is for .col-xs */
 	}
 
 /*Intro and header */
+
+
 	.byline-mobile{
 		display: none;
+		text-align: center;
 	}
 
 	.byline{
@@ -345,7 +387,7 @@ Assume anything not under a media query is for .col-xs */
 /*article*/
 
 	.inline-wide {
-		width: 125%;
+		width: 160%;
 		height: auto;
 	}
 
@@ -357,13 +399,10 @@ Assume anything not under a media query is for .col-xs */
 
 /*sidebar*/
 	.pulledquote {
-		margin-top: 1.5em;
+		/*margin-top: 1.5em;*/
 		margin-bottom: 1.5em;
 	}
-	.sidebar .pulledquote{
-		margin-top: -1.5em;
 
-	}
 
 /*contributors*/
 	.contributors .fill{
